@@ -8,19 +8,6 @@ This tool will seperate the lines of idocs that are placed in a specified
 folder (should be C:\Program Files\idoc_split\uploaded-docs), which will open 
 in an explorer window at runtime.
 
-To install:
-Everythinhg should be in the 'idoc_search-dist' directory.
-
-1) Create a folder under 'C:\Program Files\' named 'idoc_split'
-
-2) Place the 'idoc_split-dist' in the new 'idoc_split' folder 
-
-3) Copy the 'Output' and 'uploaded-docs' folders from the 'idoc_split-dist' folder and place them in the 'idoc_split' folder
-
-4) Place the 'idoc_split - Shortcut' where ever you would like. This is what will be used to run the program
-
-5) You're all set! Run the program by double clicking the shortcut. 
-
 _______________________________________________________________________________
 To change the output file location:
 You must edit the FILE_PATH.json file.
