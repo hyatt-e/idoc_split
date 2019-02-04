@@ -34,6 +34,11 @@ try:
 
         path_file.close()
 except FileNotFoundError:
+    if os.path.isdir(os.path.join(cwd, "uploaded-docs")):
+        pass
+    else:
+        os.mkdir(input_path)
+ 
     input_path = ".\\uploaded-docs\\"
     output_path = ".\\uploaded-docs\\"
 
