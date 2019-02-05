@@ -127,6 +127,11 @@ if __name__ == "__main__":
 
         print("\nYour formated idocs will be in the '{}' folder.".format(output_path))
         print("Please remove the idocs from the 'Imported-docs' folder.")
+<<<<<<< HEAD
         # open Imported-docs foler in explorer
         subprocess.call('explorer {}'.format(output_path))
+=======
+        # open Imported-docs foler in explorer
+        subprocess.call('explorer {}'.format(output_path))
+>>>>>>> 158131613e1166de7c77588acbf2861fb9345edb
         os.system("pause")
