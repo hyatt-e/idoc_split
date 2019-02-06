@@ -12,7 +12,6 @@ if __name__ == "__main__":
     file_count = 0
 
     # change cwd to location script was opened from
-    import ipdb; ipdb.set_trace()  # breakpoint dbe9343a //
     os.chdir(sys.path[0])
     cwd_name = os.path.split(os.getcwd())
     while cwd_name != "idoc_split2.0":
