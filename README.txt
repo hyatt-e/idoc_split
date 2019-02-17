@@ -8,6 +8,7 @@ This tool will seperate the lines of idocs that are placed in a specified
 folder (should be C:\Program Files\idoc_split\uploaded-docs), which will open 
 in an explorer window at runtime.
 
+You will need Python installed to run this program.
 _______________________________________________________________________________
 To change the output file location:
 You must edit the FILE_PATH.json file.
